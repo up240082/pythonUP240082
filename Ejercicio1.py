@@ -34,21 +34,30 @@ circumOfCircle = 2 * pi * radio
 print ('el area del circulo es: ', areaOfCircle)
 print ('la circuferencia del circulos es: ', circumOfCircle)
 
-# Calcular pendiente
-x1 = 2
-y1 = 2
-x2 = 6
-y2= 10
-d = 0
-pendienteDeLaRecta= y2-y1 / x2-x1
-interseccionConElEjeY= pendienteDeLaRecta * d - x1
-interseccionConElEjeX = (d + x1) / y1
-pendienteEntreLosPuntos = (y2 - y1) / (x2 - x1)
-distancia = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
-print("pendiente de la recta y: ", pendienteDeLaRecta)
-print ("interseccion con el eje y: ", interseccionConElEjeY)
-print ("interseccion con el eje x: ", interseccionConElEjeX)
-print ("pendiente entre los puntos: ", pendienteEntreLosPuntos)
-print ("distancia entre los puntos, ", distancia)
+# Pendiente, intersección con el eje x e intersección con el eje y de y = 2x - 2
+pendiente = 2
+interseccion_y = -2
+# Para la intersección con el eje x
+interseccion_x = -interseccion_y / pendiente
+print("La pendiente es:", pendiente)
+print("La intersección con el eje y es:", interseccion_y)
+print("La intersección con el eje x es:", interseccion_x)
+
+import math
+# Coordenadas de los puntos
+x1, y1 = 2, 2
+x2, y2 = 6, 10
+# Calcular la pendiente
+pendiente = (y2 - y1) / (x2 - x1)
+# Calcular la distancia euclidiana
+distancia_euclidiana = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+print("La pendiente es:", pendiente)
+print("La distancia euclidiana es:", distancia_euclidiana)
+
+
+
+
+
+
 
 
