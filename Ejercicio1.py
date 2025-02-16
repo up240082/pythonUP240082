@@ -1,7 +1,10 @@
 # Dia 3
 edad = 18
+print (type(edad))
 altura = 1.78
-numeroComplejo = 18 + 4j
+print (type(altura))
+numeroComplejo =4j
+print(type(numeroComplejo))
 
 # area de un triangulo
 seMultiplica = 0.5
