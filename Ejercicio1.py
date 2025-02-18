@@ -6,30 +6,37 @@ print (type(altura))
 numeroComplejo =4j
 print(type(numeroComplejo))
 
-# area de un triangulo
+# area de un triangulo - Programa 4
 seMultiplica = 0.5
-alturaTriangulo = int(input("ingresa la altura del triangulo: "))
-baseTriangulo = int(input("ingresa la base del triangulo: "))
+alturaTriangulo = float(input("ingresa la altura del triangulo: "))
+print (type(alturaTriangulo))
+baseTriangulo = float(input("ingresa la base del triangulo: "))
+print (type(baseTriangulo))
 areaDelTriangulo = seMultiplica * baseTriangulo * alturaTriangulo
 print ("el area del triangulo es de: ", areaDelTriangulo)
 
 # Perimetro del triangulo
-primerLado = int(input("ingrese el primer lado del triangulo: "))
-segundoLado = int(input("ingrese el segundo lado del triangulo: "))
-tercerLado = int(input("ingrese el tercer lado del triangulo: "))
+primerLado = float(input("ingrese el primer lado del triangulo: "))
+print(type(primerLado))
+segundoLado = float(input("ingrese el segundo lado del triangulo: "))
+print(type(segundoLado))
+tercerLado = float(input("ingrese el tercer lado del triangulo: "))
+print(type(tercerLado))
 perimetroDelTriangulo = primerLado + segundoLado + tercerLado
 print ("el perimetro del triangulo es de: ", perimetroDelTriangulo)
 
 # Area y perimetro de un rectangulo
-longitudRectangulo = int(input("ingrese la longitud del rectangulo: "))
-anchuraRectangulo = int( input("ingrese la anchura del rectangulo: "))
+longitudRectangulo = float(input("ingrese la longitud del rectangulo: "))
+print(type(longitudRectangulo))
+anchuraRectangulo = float( input("ingrese la anchura del rectangulo: "))
+print(type(anchuraRectangulo))
 areaDelRectangulo = longitudRectangulo * anchuraRectangulo
 perimetroDelRectangulo = longitudRectangulo + anchuraRectangulo
 print ("el area del rectangulo es de: ", areaDelRectangulo)
 print ("el perimetro del rectangulo es de: ", perimetroDelRectangulo)
 
 # Area del circulo
-radio = int(input("ingrese el radio del circulo: "))
+radio = float(input("ingrese el radio del circulo: "))
 print (type(radio))
 pi = 3.1416
 areaOfCircle = pi * radio **2
