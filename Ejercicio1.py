@@ -87,22 +87,31 @@ else:
     print("No se encontró un valor de x para el que y sea 0.")
 
 #Programa 12
-lon1: "python"
-lon2: "dragon"
-longitud1: len(uno)
-longitud2: len(dos)
-print ("La longitud de '{lon1}:  {longitud1}")
-print ("La longitud de '{dos}' es:  {longitud2}")
-print(f"¿Las longitudes de '{uno}' y '{dos}' son diferentes?: {comparaResultados} ")
+lonUno = 'python'
+lonDos = 'dragon'
+length1 = len(lonUno)
+length2 = len(lonDos)
+print(f"La longitud de '{lonUno}' es: {length1}")
+print(f"La longitud de '{lonDos}' es: {length2}")
+comparaResultados = length1 != length2
+print(f"¿Las longitudes de '{lonUno}' y '{lonDos}' son diferentes?: {comparaResultados}")
 
+#Programa 13
+lonUno = 'python'
+lonDos ='dragon'
+is_on_in_both = ('on' in lonUno) and ('on' in lonDos)
+print (f"La silaba 'on' se encuentra en ambas palabras? ", is_on_in_both)
 
+#Programa 14
+oracion = "espero que este curso no este lleno de jerga"
+jerga =("jerga" in oracion)
+print (f"La palabra 'jerga' si se encuentra en la oracion?: ", jerga)
 
-
-
-
-
-
-
+#Programa 15
+lonUno: 'python'
+lonDos: 'dragon'
+not_on_in_both= (not 'on' in lonUno) and (not 'on' in lonDos)
+print (f"La silaba 'on' se encuentra en ambas palabras? ", not_on_in_both)
 
 
 
