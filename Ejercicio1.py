@@ -113,6 +113,12 @@ lonDos: 'dragon'
 not_on_in_both= (not 'on' in lonUno) and (not 'on' in lonDos)
 print (f"La silaba 'on' se encuentra en ambas palabras? ", not_on_in_both)
 
+#Programa 16
+lonUno= 'python'
+lonDos= (str(float(len(lonUno))))
+print (f"la longitud de '{lonUno}'es: ", lonDos)
+
+
 
 
 
