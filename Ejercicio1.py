@@ -65,6 +65,47 @@ distancia_euclidiana = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
 print("La pendiente es:", pendiente)
 print("La distancia euclidiana es:", distancia_euclidiana)
 
+#Programa 10
+#PendientePorHacer...
+
+#Programa 11
+def calculate_y(x):
+    return x**2 + 6*x + 9
+x_values = range(-10, 11)
+y_values = [calculate_y(x) for x in x_values]
+epsilon = 1e-10
+x_zero = None
+for x, y in zip(x_values, y_values):
+    if abs(y) < epsilon:
+        x_zero = x
+        break
+print("Valores de x:", list(x_values))
+print("Valores de y:", y_values)
+if x_zero is not None:
+    print(f"El valor de x para el que y es 0 es: {x_zero}")
+else:
+    print("No se encontró un valor de x para el que y sea 0.")
+
+#Programa 12
+lon1: "python"
+lon2: "dragon"
+longitud1: len(uno)
+longitud2: len(dos)
+print ("La longitud de '{lon1}:  {longitud1}")
+print ("La longitud de '{dos}' es:  {longitud2}")
+print(f"¿Las longitudes de '{uno}' y '{dos}' son diferentes?: {comparaResultados} ")
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
