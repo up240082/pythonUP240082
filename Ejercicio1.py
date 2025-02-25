@@ -99,8 +99,8 @@ print(f"¿Las longitudes de '{lonUno}' y '{lonDos}' son diferentes?: {comparaRes
 #Programa 13
 lonUno = 'python'
 lonDos ='dragon'
-is_on_in_both = ('on' in lonUno) and ('on' in lonDos)
-print (f"La silaba 'on' se encuentra en ambas palabras? ", is_on_in_both)
+tiene = ('on' in lonUno) and ('on' in lonDos)
+print (f"La silaba 'on' se encuentra en ambas palabras? ", tiene)
 
 #Programa 14
 oracion = "espero que este curso no este lleno de jerga"
@@ -110,8 +110,8 @@ print (f"La palabra 'jerga' si se encuentra en la oracion?: ", jerga)
 #Programa 15
 lonUno: 'python'
 lonDos: 'dragon'
-not_on_in_both= (not 'on' in lonUno) and (not 'on' in lonDos)
-print (f"La silaba 'on' se encuentra en ambas palabras? ", not_on_in_both)
+noTiene= (not 'on' in lonUno) and (not 'on' in lonDos)
+print (f"La silaba 'on' se encuentra en ambas palabras? ", noTiene)
 
 #Programa 16
 lonUno= 'python'
