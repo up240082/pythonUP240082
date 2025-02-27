@@ -56,3 +56,32 @@ print ("funcion stringSwapcase: ", stringSwapcase)
 
 #Programa 9
 print ("programa 9:")
+palabra  = "Coding for all"
+cortar= palabra[6:14]
+print ("la palabra cortada es: ", cortar)
+
+
+#Programa 10
+print ("programa 10:")
+cadena = "Coding for all"
+comparar = (cadena.index("Coding"))
+print (comparar)
+
+
+#Programa 11
+print ("programa 11:")
+remplazar = (cadena.replace("Coding" , "python"))
+print ("la cadena nueva es: ", remplazar)
+
+#Programa 12
+print ("programa 12:")
+replace = (cadena.replace("Coding", "Everyone to python"))
+print ("la cadena nueva es: ", replace)
+
+#Programa 13
+print ("programa 13:")
+separador = (cadena.split(" "))
+print (separador)
+
+#Programa 14
+print ("programa 14:")
