@@ -56,7 +56,7 @@ print ("funcion stringSwapcase: ", stringSwapcase)
 
 #Programa 9
 print ("programa 9:")
-palabra  = "Coding for all"
+palabra  = "Coding For All"
 cortar= palabra[6:14]
 print ("la palabra cortada es: ", cortar)
 
@@ -85,3 +85,82 @@ print (separador)
 
 #Programa 14
 print ("programa 14:")
+cad = "Facebook, Google Microsoft, Apple, IBM, Oracle, Amazon"
+separar = (cad.split(" "))
+print (separar)
+
+#Programa 15
+print ("programa 15: ")
+encontrar = palabra[0]
+print ("se encuentra: ",encontrar)
+
+#Programa 16
+print ("programa 16:")
+encontrar = palabra[13]
+print ("se encuentra: ",encontrar)
+
+#Programa 17
+print ("programa 17:")
+encontrar = palabra [10]
+print ("se encuentra: ",encontrar)
+
+#Programa 18 
+print ("programa 18:")
+acronimo = "Python For Everyone"
+abreviatura =  (acronimo[0][0]+acronimo[7][0]+acronimo[11][0])
+print ("Es: ", abreviatura)
+
+#Programa 19
+print ("programa 19:")
+abreviatura = (palabra[0][0]+palabra[7][0]+palabra[11][0])
+print ("Es: ", abreviatura)
+
+#Programa 20
+print ("programa 20:")
+index = (palabra.index("C"))
+print ("Es: ", index)
+
+#Programa 21
+print ("programa 21:")
+index = (palabra.index("F"))
+print ("Es: ", index)
+
+#Programa 22
+print ("programa 22:")
+index = (palabra.index("l"))
+print ("Es: ", index)
+
+#Programa 23
+print ("programa 23:")
+frase =  "You cannot end a sentence with because because because is a conjunction"
+fraseInd = (frase.index("because"))
+print (fraseInd)
+
+#Programa 24
+print ("programa 23:")
+fraseInd = (frase.rindex("because"))
+print (fraseInd)
+
+#Programa 25
+print ("programa 25:")
+cut = (frase[0:30]+frase[54:71])
+print (cut)
+
+#Programa 26
+print ("programa 26:")
+fraseInd = (frase.index("because"))
+print (fraseInd)
+
+#Programa 27
+print ("programa 27:")
+cut = (frase[0:30]+frase[54:71])
+print (cut)
+
+#Programa 28
+print ("programa 28: ")
+
+
+
+
+
+
