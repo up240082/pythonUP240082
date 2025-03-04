@@ -186,6 +186,29 @@ print ('#'.join(lista))
 
 #Programa 33
 print ("programa 33:")
+texto = "I am enjoying this challenge.\nI just wonder what is next."
+print(texto)
+
+#Programa 34
+print ("programa 34:")
+print('Name' + '\t' + 'Age' + '\t'  + 'Country' + '\t'+ 'City')
+print('Asabeneh' + '\t' + '250' + '\t' + 'Finland'+ '\t' + 'Helsinky')
+
+
+#Programa 35
+radius = 10
+area = 3.14 * radius ** 2
+print ("The area of a circle with radius 10 is 314 meters square.: ", area)
+
+#Programa 36
+print ("programa 36:")
+print("8 + 6 = {}".format(8 + 6))
+print("8 - 6 = {}".format(8 - 6))
+print("8 * 6 = {}".format(8 * 6))
+print("8 / 6 = {}".format(8 / 6))
+print("8 % 6 = {}".format(8 % 6))
+print("8 // 6 = {}".format(8 // 6))
+print("8 ** 6 = {}".format(8 ** 6))
 
 
 
