@@ -158,6 +158,36 @@ print (cut)
 
 #Programa 28
 print ("programa 28: ")
+subCadena = "Coding"
+print (cadena.startswith(subCadena))
+
+#Programa 29
+print ("programa 29:")
+subCadena = "Coding"
+print (cadena.endswith(subCadena))
+
+#Programa 30
+print ("programa 30:")
+eliminarEsp = ' Coding for all '
+print (eliminarEsp.strip())
+
+#Programa 31
+print ("programa 31:")
+variableUno = "30DaysOfPython"
+variableDos = "thirty_Days_Of_Python"
+print (variableUno.isidentifier())
+print (variableDos.isidentifier())
+print ("La variable donde te devuelve 'true' es: ", variableDos)
+
+#Programa 32
+print ("programa 32:")
+lista = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+print ('#'.join(lista))
+
+#Programa 33
+print ("programa 33:")
+
+
 
 
 
