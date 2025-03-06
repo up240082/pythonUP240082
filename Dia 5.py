@@ -93,16 +93,62 @@ print (it_companies)
 
 #Programa 18
 print ("programa 18:")
-cutCompanies = it_companies[3:]
+cutCompanies = it_companiesTres[3:9]
 print (cutCompanies)
 
 #Programa 19
 print ("programa 19:")
-cutCompanies = it_companies[0:4]
+cutCompanies = it_companiesTres[0:6]
 print (cutCompanies)
 
 #Programa 20
 print ("programa 20:")
+cutCompanies = it_companiesTres[0:4]+it_companiesTres[5:9]
+print (cutCompanies)
+
+#Programa 21
+print ("programa 21:")
+del it_companiesTres[0]
+print (it_companiesTres)
+
+#Programa 22
+print ("programa 22:")
+del it_companiesTres[5]
+print (it_companiesTres)
+
+
+#Programa 23
+print ("programa 23:")
+del it_companiesTres[6]
+print (it_companiesTres)
+
+
+#Programa 24
+print ("programa 24:")
+del it_companiesTres[0:6]
+print (it_companiesTres)
+
+#Programa 25
+print ("programa 25:")
+it_companiesTres.clear()
+print (it_companiesTres)
+
+#Programa 26
+print ("programa 26:")
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
+listaFinal = front_end + back_end
+print (listaFinal)
+
+
+#Programa 27
+print ("programa 27:")
+inserta= ['python', 'SQL']
+listaFinalDos = listaFinal + inserta
+print (listaFinalDos)
+
+
+
 
 
 
