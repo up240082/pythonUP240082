@@ -1,4 +1,4 @@
-#Ejerciciso dia 4
+#Ejerciciso dia 5
 
 #Programa 1
 print ("programa 1:")
