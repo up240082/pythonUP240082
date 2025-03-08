@@ -147,13 +147,35 @@ inserta= ['python', 'SQL']
 listaFinalDos = listaFinal + inserta
 print (listaFinalDos)
 
+#Ejercicios Nivel 2
+#Programa 1
+print ("Programa 1, NIVEL 2:")
+#Ordena las edades
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+ages.sort ()
+print ("La lista ordenada: ", ages)
+#Encontrar la edad minima y maxima
+edadMinima = min(ages)
+edadMaxima = max(ages)
+print ("La edad minima es: ", edadMinima)
+print ("La edad maxima es: ", edadMaxima)
+#Agregar la minima y la maxima a la lista
+ages.append(edadMaxima)
+ages.append(edadMinima)
+print ("La lista con la min y la max agregada es: ", ages)
+#Edad media
+mediana = (ages[4]+ages[5]/2)
+print('La media es:', mediana)
+#Promedio
+promedio = (sum(ages)/len(ages))
+print ("El promedio es: ", promedio)
+#ya no le supe
+comparacion =(ages[0]-promedio) and (ages[-1]-promedio)
+print('El resultado de la comparacion es:',comparacion)
 
 
-
-
-
-
-
-
-
-
+#Programa 2 
+print ("programa 2, NIVEL 2: ")
+import countries as p
+paises = p.countries
+print(len(paises))
