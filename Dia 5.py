@@ -176,6 +176,19 @@ print('El resultado de la comparacion es:',comparacion)
 
 #Programa 2 
 print ("programa 2, NIVEL 2: ")
-import countries as p
+import paises as p
 paises = p.countries
-print(len(paises))
+print (len(paises))
+pais = (len(paises))//2
+print (pais)
+int(pais)
+print (paises[int(pais-1)]+ ' , '+ paises[int(pais)])
+#2
+ListaUno = paises[0:95]
+ListaDos = paises [96:192]
+print ('La lista uno : ', ListaUno)
+print ('La lista dos : ', ListaDos)
+#3
+p.countries = ['china', 'rusia', 'EE.UU', 'finlandia', 'suecia', 'noruega', 'dinamarca']
+p1,p2,p3, * escandinavos = p.countries
+print (escandinavos)
