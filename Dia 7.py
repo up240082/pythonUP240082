@@ -77,6 +77,19 @@ print (AB + BA)
 #Programa 1
 print ("programa 1, nivel 3:")
 ages = ['22', '19', '24', '25', '26', '24', '25', '24']
+ages_set = set(ages)
+print (ages_set)
+if len(ages) > len(ages_set):
+    print ("La lista es mayor")
+else:
+    print ("El conjunto es mayor")    
+    
+
+#Programa 2
+print ("programa 2, nivel 3:")
 
 
 
+#Programa 3
+print ("programa 3, nivel 3:")
+frase = "I am a teacher and I love to inspire and teach people"
