@@ -87,9 +87,17 @@ else:
 
 #Programa 2
 print ("programa 2, nivel 3:")
+# string: es una cadena de characters.
+ # list: es conjunto de items:
+ # tuple: es similar a una lista pero con la diferencia de que es inmutable, es decir no puedes modificar sus elementos.
+ # set: es una lista que no esta ordenada de elementos unicos.
+
 
 
 
 #Programa 3
 print ("programa 3, nivel 3:")
-frase = "I am a teacher and I love to inspire and teach people"
+frase = ['I', 'am', 'a', 'teacher', 'and', 'I', 'love', 'to', 'inspire', 'and', 'teach', 'people']
+resultado = set(frase)
+print (len(resultado))
+print (resultado)
