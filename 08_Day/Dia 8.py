@@ -14,17 +14,18 @@ print (perro)
 
 #Programa 3
 print ("programa 3:")
- 
-estudiante = {}
-estudiante ['nombre'] = 'Alejandro'
-estudiante ['apellido'] = 'Lopez'
-estudiante ['sexo'] = 'masculino'
-estudiante ['edad'] = '18 años'
-estudiante ['estado civil'] = 'soltero'
-estudiante ['habilidades'] = 'veloz e inteligente'
-estudiante ['pais'] = 'Italia'
-estudiante ['ciudad'] = 'Aguascalientes'
-estudiante ['direccion'] = 'Paseo San Gerardo #150'
+estudiante = {
+    'nombre': 'Alejandro',
+    'apellido': 'Lopez',
+    'sexo': 'masculino',
+    'edad': '18',
+    'Estado civil': 'soltero',
+    'Habilidades':['veloz', 'inteligente'],
+    'Pais': 'Italia',
+    'ciudad': 'Aguascalientes',
+    'Direccion':{
+        'Calle':'Paseo San Gerardo',
+        'Colonia':'San Gerardo'}}
 print (estudiante)
 
 #Programa 4
