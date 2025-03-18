@@ -31,4 +31,32 @@ print (estudiante)
 #Programa 4
 print ("programa 4:")
 print (len(estudiante))
-    
+
+#Programa 5
+print ("programa 5:")
+print (estudiante['Habilidades'])
+print (type(estudiante['Habilidades']))
+
+#Programa 6
+print ("programa 6")
+estudiante['Habilidades'].append ('tomar')
+print (estudiante)
+
+#Programa 7
+print ('programa 7:')
+keys = estudiante.keys()
+print (keys)
+
+#Programa 8
+print ("programa 8:")
+values = estudiante.values()
+print (values)
+
+#Programa 9
+print ("programa 9:")
+items = estudiante.items()
+print (items)
+
+#Programa 10
+print (estudiante.pop())
+
