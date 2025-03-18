@@ -58,5 +58,9 @@ items = estudiante.items()
 print (items)
 
 #Programa 10
-print (estudiante.pop())
+print (estudiante.pop('ciudad'))
+
+#Programa 11
+print ('programa 11:')
+del estudiante
 
