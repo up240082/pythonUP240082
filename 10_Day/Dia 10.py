@@ -1,11 +1,9 @@
-mes = (input("Ingresa el  mes: "))
-if mes in ['septiembre', 'octubre', 'noviembre']:
-    print ("La estacion es otoño")
-elif mes in ['diciembre', 'enero', 'febrero']:
-    print ("La estacion es invierno")
-elif mes in ['marzo', 'abril', 'mayo']:
-    print ("La estacion es primavera")
-elif mes['junio', 'julio', 'agosto']:
-    print ("La estacion es verano")
-else:
-    print ("No hay estacion")
+#Ejercicios dia 10
+#Programa 1
+print ("programa 1:")
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+for numero in numeros:
+    print (numero)
+
+while numero in numeros:
+    print (numero)
