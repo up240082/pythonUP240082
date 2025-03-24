@@ -33,4 +33,45 @@ e = '#'
 for i in range (8):
     print (e * 8 )
 
+#Programa 5
+print ('programa 5:')
+for i in range(11):
+    print(f"{i} x {i} = {i * i}")
 
+#Programa 6
+print ("programa 6:")
+herramientas = ['Python', 'Numpy','Pandas','Django', 'Flask']
+for herramienta in herramientas:
+    print (herramienta)
+
+#Programa 7
+print ("programa 7:")
+for i in range (101):
+    if i % 2==0:
+        print (i)
+
+#Programa 8
+print ("programa 8:")
+for i in range (101):
+    if i % 2!=0:
+        print (i)
+
+#Ejercicios nivel 2
+#programa 1
+print ("programa 1, nivel 2:")
+sumaTotal = 0
+for i in range (101):
+    sumaTotal += i
+print ("La suma total es: ", sumaTotal)
+
+#Programa 2
+print ("programa 1, nivel 2:")
+sumaPares = 0
+sumaImpares = 0
+for i in range (101):
+    if i % 2== 0:
+        sumaPares += i
+    else:
+        sumaImpares += i
+print ("La suma de los pares es: ", sumaPares)
+print ("La suma de los impares es: ", sumaImpares)
