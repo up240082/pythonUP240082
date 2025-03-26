@@ -19,6 +19,11 @@ print(area_of_circle(rad))
 
 #Programa 3
 print ("programa 3:")
+def add_all_nums(*nums):
+    total = 0
+    for num in nums:
+        total += num
+    return total
 
 
 #Programa 4
@@ -53,8 +58,24 @@ print(checkSeason(month))
 
 #Programa 6
 print ("programa 6:")
+def calculate_slope(x1, y1, x2, y2):
+    return (y2 - y1) / (x2 - x1)
+x1 = float(input("ingrese x1: "))
+y1 = float(input("ingrese y1: "))
+x2 = float(input("ingrese x2: "))
+y2 = float(input("ingrese y2: "))
+print(calculate_slope(x1, y1, x2, y2))
+
 #Programa 7
 print ("programa 7:")
+def solve_quadratic(a, b, c):
+    x1 = (-b + ((b ** 2) - 4 * a * c) ** 0.5) / 2 * a
+    x2 = (-b - ((b ** 2) - 4 * a * c) ** 0.5) / 2 * a
+    return x1, x2
+a = float(input("ingrese a: "))
+b = float(input("ingrese b: "))
+c = float(input("ingrese c: "))
+print(solve_quadratic(a, b, c))
 
 #Programa 8
 print ("programa 8:")
@@ -72,3 +93,29 @@ def reverse_list(miLista):
     return miLista
 list= [100, 200, 300, 400, 500, 600]
 print(reverse_list(list))
+
+#Programa 10
+print ("programa 10:")
+def capitalize_list_items(miLista):
+    return [x.upper() for x in miLista]
+list= ['hola', 'mundo', 'python']
+print(capitalize_list_items(list))
+
+#Programa 11
+print ("programa 11:")
+def add_item(miLista, item):
+    miLista.append(item)
+    return miLista
+list= [1, 2, 3, 4, 5, 6]
+item = 7
+print(add_item(list, item))
+
+#Programa 12
+print ("programa 12:")
+def remove_item(miLista, item):
+    miLista.remove(item)
+    return miLista
+list= [1, 2, 3, 4, 5, 6]
+item = 6
+print(remove_item(list, item))
+
