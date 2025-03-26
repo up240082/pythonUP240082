@@ -1,4 +1,4 @@
-paisD = [
+countries = [
     {
         "name": "Afghanistan",
         "capital": "Kabul",
