@@ -98,14 +98,37 @@ print (reverseFruits)
 
 #Programa 3
 print ("programa 3, nivel 3:")
-import countriesData as countrie
-paisData = countrie.paisD
-lenguajes = []
-for pais in lenguajes:
-    for lenguaje in pais:
-        lenguajes.append("languages")
+import countriesData as datac 
 
-print (lenguajes)
+datos = datac.countries
+countryLanguage = []
+for pais in datos:
+    for lenguaje in pais['languages']:
+        countryLanguage.append(lenguaje)
+        
+print('estos son los lenguajes que hay : ', len(countryLanguage))
+ #2
+setlanguages = set(countryLanguage)
+dictlanguages = {
+
+}
+for language in setlanguages:
+    dictlanguages[language] = 0
+
+print(dictlanguages)
+
+for idioma in dictlanguages:
+    for pais in datos:  
+         if idioma in pais['languages']:
+             dictlanguages[idioma] = pais['population'] + dictlanguages[idioma]
+
+sortValuesLanguagespopulation = sorted(dictlanguages.values(), reverse= True)
+sorfkeyslanguagespopulation = sorted(dictlanguages, key= dictlanguages.get, reverse=True)
+
+print( sorfkeyslanguagespopulation[1] ,sortValuesLanguagespopulation[1])
+#3
+for i in range(10):
+    print(sorfkeyslanguagespopulation[i] ,sortValuesLanguagespopulation[i])
 
 
 

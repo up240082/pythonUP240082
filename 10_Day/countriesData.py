@@ -1,4 +1,4 @@
-[
+paisD = [
     {
         "name": "Afghanistan",
         "capital": "Kabul",
