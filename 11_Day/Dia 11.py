@@ -127,4 +127,22 @@ def sum_of_numbers(n):
     return sum(range(1, n + 1))
 resultado = sum_of_numbers(10)
 print("La suma total es:", resultado)
+
+#Programa 14
+print ("programa 14:")
+def sum_of_odds(n):
+    if n < 1:
+        return
+    return sum(range(1, n + 1, 2))
+resultado = sum_of_odds(10)
+print("La suma de los impares es:", resultado)
+
+#Programa 15
+print ("programa 15:")
+def sum_of_evens(n):
+    if n < 1:
+        return
+    return sum(range(2, n + 1, 2))
+resultado = sum_of_evens(10)
+print("La suma de los pares es:", resultado)
     
