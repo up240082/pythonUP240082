@@ -119,3 +119,12 @@ list= [1, 2, 3, 4, 5, 6]
 item = 6
 print(remove_item(list, item))
 
+#Programa 13
+print ("programa 13:")
+def sum_of_numbers(n):
+    if n < 1:
+        return
+    return sum(range(1, n + 1))
+resultado = sum_of_numbers(10)
+print("La suma total es:", resultado)
+    
