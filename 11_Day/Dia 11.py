@@ -146,3 +146,34 @@ def sum_of_evens(n):
 resultado = sum_of_evens(10)
 print("La suma de los pares es:", resultado)
     
+
+#Ejercicios nivel 2
+#Programa 1
+print ("programa 1, nivel 2:")
+def evens_and_odds():
+    numero = float(input("Ingrese un número: "))
+    if numero % 2 == 0:
+        return "El número es par."
+    else:
+        return "El número es impar."
+print(evens_and_odds())
+
+#Programa 2
+print("Programa 2, Nivel 2:")
+
+def factorial(number):
+    if number < 0:
+        return "No está definido para números negativos."
+    elif number == 0 or number == 1:
+        return 1
+    else:
+        result = 1
+        for i in range(2, number + 1):
+            result *= i
+        return result
+try:
+    fac = int(input("Ingrese un número entero: "))
+    print(f"El factorial de {fac} es: {factorial(fac)}")
+except ValueError:
+    print("Por favor, ingrese un número entero válido.")
+        
