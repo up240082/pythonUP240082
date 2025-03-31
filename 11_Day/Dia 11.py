@@ -176,4 +176,48 @@ try:
     print(f"El factorial de {fac} es: {factorial(fac)}")
 except ValueError:
     print("Por favor, ingrese un número entero válido.")
-        
+
+
+#Programa 3
+print ("programa 3, nivel 2:")
+def is_empty(valido):
+    if not valido:
+        return True
+    else:
+        return False
+print (is_empty([]))
+print (is_empty([1, 2]))
+
+#Programa 4
+print ("programa 4, nivel 2:")
+def calculate_mean(lista):
+    return suma(lista)/len(lista)
+print (calculate_mean(lista=[1,2,3,4,5]))
+
+def calcular_mediana(numeros):
+    numeros_ordenados = sorted(numeros)
+    n = len(numeros_ordenados)
+    if n % 2 == 1:
+        mediana = numeros_ordenados[n // 2]
+    else:
+        mediana = (numeros_ordenados[n // 2 - 1] + numeros_ordenados[n // 2]) / 2
+    return mediana
+numeros = [1,2,3,4,5]
+resultado = calcular_mediana(numeros)
+print(f"La mediana es: {resultado}")
+
+def calcular_mode(numeros):
+    from collections import Counter
+    frecuencias = Counter(numeros)
+    max_frecuencia = max(frecuencias.values())
+    modos = [num for num, freq in frecuencias.items() if freq == max_frecuencia]
+    return modos
+numeros = [4, 5, 6, 4, 7, 4]
+modos = calcular_modo(numeros)
+print(f"El modo es: {modos}")
+
+def calcular_rango(numeros):
+    return max(numeros) - min(numeros)
+numeros = [4, 5, 6, 4, 7, 4]
+rango = calcular_rango(numeros)
+print(f"El rango es: {rango}")
