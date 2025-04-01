@@ -101,3 +101,4 @@ frase = ['I', 'am', 'a', 'teacher', 'and', 'I', 'love', 'to', 'inspire', 'and', 
 resultado = set(frase)
 print (len(resultado))
 print (resultado)
+print("Revisado")

@@ -192,3 +192,5 @@ print ('La lista dos : ', ListaDos)
 p.countries = ['china', 'rusia', 'EE.UU', 'finlandia', 'suecia', 'noruega', 'dinamarca']
 p1,p2,p3, * escandinavos = p.countries
 print (escandinavos)
+
+print("Revisado")
