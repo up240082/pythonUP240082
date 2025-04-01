@@ -23,7 +23,7 @@ def add_all_nums(*nums):
     total = 0
     for num in nums:
         total += num
-    return total
+        return total
 
 
 #Programa 4
@@ -79,9 +79,9 @@ print(solve_quadratic(a, b, c))
 
 #Programa 8
 print ("programa 8:")
-def print_list(miLista):
+def print_list (miLista):
     for elemento in miLista:
-        print(elemento)
+        print (elemento)
 
 list= [100, 200, 300, 400, 500, 600]
 print_list(list)
@@ -91,8 +91,9 @@ print ("programa 9:")
 def reverse_list(miLista):
     miLista.reverse()
     return miLista
-list= [100, 200, 300, 400, 500, 600]
+list =[100, 200, 300, 400, 500, 600]
 print(reverse_list(list))
+
 
 #Programa 10
 print ("programa 10:")
@@ -106,9 +107,7 @@ print ("programa 11:")
 def add_item(miLista, item):
     miLista.append(item)
     return miLista
-list= [1, 2, 3, 4, 5, 6]
-item = 7
-print(add_item(list, item))
+list =[1, 2, 3, 4, 5, 6]
 
 #Programa 12
 print ("programa 12:")
@@ -116,8 +115,8 @@ def remove_item(miLista, item):
     miLista.remove(item)
     return miLista
 list= [1, 2, 3, 4, 5, 6]
-item = 6
-print(remove_item(list, item))
+item= 6
+print(remove_item(list,item))
 
 #Programa 13
 print ("programa 13:")
@@ -221,3 +220,37 @@ def calcular_rango(numeros):
 numeros = [4, 5, 6, 4, 7, 4]
 rango = calcular_rango(numeros)
 print(f"El rango es: {rango}")
+
+#Ejercicios nivel 3
+#Programa 1
+print ("programa 1, nivel 3:")
+def is_primo(numero):
+    if numero <= 1:
+        return False
+    for i in range (2, int(numero **0.5) +1):
+        if numero % i == 0:
+            return False
+        return True
+numero = int(input("ingresa un numero: "))
+if es_primo(numero):
+    print(f"es un numero primo: ", numero)
+else:
+    print (f"no es un numero primo: ", numero)
+
+#Programa 2
+print ("programa 2, nivel 3:")
+
+
+
+#Programa 3
+print ("programa 3, nivel 3:")
+
+
+
+#Programa 4
+print ("programa 4, nivel 3:")
+
+
+
+#Programa 5
+print ("programa 5, nivel 3:")
