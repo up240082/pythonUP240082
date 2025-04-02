@@ -190,7 +190,7 @@ print (is_empty([1, 2]))
 #Programa 4
 print ("programa 4, nivel 2:")
 def calculate_mean(lista):
-    return suma(lista)/len(lista)
+    return sum(lista)/len(lista)
 print (calculate_mean(lista=[1,2,3,4,5]))
 
 def calcular_mediana(numeros):
@@ -239,18 +239,62 @@ else:
 
 #Programa 2
 print ("programa 2, nivel 3:")
-
-
+def son_unicos(lista):
+    unicos = []
+    for elemento in lista:
+        for elemento in not unicos:
+            unicos.append(elemento)
+            return unicos
+lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print (son_unicos(lista))
 
 #Programa 3
 print ("programa 3, nivel 3:")
-
-
+def same_data(lista):
+    if not lista:
+        return True
+    return all(isinstance(item, type(lista[0])) for item in lista)
+print (same_data([1,2,3,4,5,6]))
 
 #Programa 4
 print ("programa 4, nivel 3:")
-
-
+def python_Variable(variable):
+    if variable.isidentifier():
+        return True
+    else:
+        return False
+print (python_Variable(variable='variable1'))
 
 #Programa 5
 print ("programa 5, nivel 3:")
+import countriesData as cDatos
+datos = cDatos.countries
+country_len= []
+def mas_Hab():
+    for pais in datos:
+        for lenguaje in pais ['languages']:
+            country_len.append(lenguaje)
+            setLen= set(country_len)
+            dicLen = {
+
+            }
+            for lenguaje in  setLen:
+                dicLen [lenguaje]= 0
+                for idioma in dicLen:
+                    for pais in datos:
+                        if idioma in pais ['languajes']:
+                            dicLen [idioma]= pais['population'] + dicLen[idioma]
+            sortVallenpopu = sorted(dicLen.values(),reverse = True)
+            sortKeyLenPopu = sorted (dicLen,key=dicLen.get,reverse=True)
+            return sortKeyLenPopu [:10],sortVallenpopu [:10]
+        print (mas_Hab())
+        def paisesM ():
+            dicPoblacion = {
+
+            }
+            for pais in datos:
+                dicPoblacion[pais['name']] = pais ['population']
+                sortValPopu = sorted(dicPoblacion.values(), reverse=True)
+                sortKeyPopu = sorted(dicPoblacion, key=dicPoblacion.get,reverse=True)
+                return sortKeyPopu [:10], sortValPopu [:10]
+            print (paisesM())
