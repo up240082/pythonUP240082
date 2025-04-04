@@ -212,7 +212,7 @@ def calcular_mode(numeros):
     modos = [num for num, freq in frecuencias.items() if freq == max_frecuencia]
     return modos
 numeros = [4, 5, 6, 4, 7, 4]
-modos = calcular_modo(numeros)
+modos = calcular_mode(numeros)
 print(f"El modo es: {modos}")
 
 def calcular_rango(numeros):
@@ -232,7 +232,7 @@ def is_primo(numero):
             return False
         return True
 numero = int(input("ingresa un numero: "))
-if es_primo(numero):
+if is_primo(numero):
     print(f"es un numero primo: ", numero)
 else:
     print (f"no es un numero primo: ", numero)
@@ -242,11 +242,11 @@ print ("programa 2, nivel 3:")
 def son_unicos(lista):
     unicos = []
     for elemento in lista:
-        for elemento in not unicos:
+        if elemento not in unicos:
             unicos.append(elemento)
-            return unicos
-lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-print (son_unicos(lista))
+    return unicos
+lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 2, 3, 5, 7]
+print(son_unicos(lista))
 
 #Programa 3
 print ("programa 3, nivel 3:")
