@@ -153,7 +153,3 @@ print ("programa 15, nivel 2:")
 def getLastTenCountries():
      return paises[-10:]
 print (getLastTenCountries())
-
-#Ejercicio nivel 3
-#Programa 1
-print ("programa 1, nivel 3:")
