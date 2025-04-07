@@ -63,3 +63,4 @@ def uniquesNumbers():
     return random.sample(range(10),7)
 randomNumbers = uniquesNumbers()
 print ("numeros aleatorios unicos: ", randomNumbers)
+print("revisado")

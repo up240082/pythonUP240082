@@ -36,3 +36,4 @@ print(lista[5])
 #11
 numero = 10
 print(numero.upper())  # `int` no tiene el método `upper()`
+print("revisado")

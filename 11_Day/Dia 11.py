@@ -64,7 +64,7 @@ x1 = float(input("ingrese x1: "))
 y1 = float(input("ingrese y1: "))
 x2 = float(input("ingrese x2: "))
 y2 = float(input("ingrese y2: "))
-print(calculate_slope(x1, y1, x2, y2))
+#print(calculate_slope(x1, y1, x2, y2))
 
 #Programa 7
 print ("programa 7:")
@@ -298,3 +298,5 @@ def mas_Hab():
                 sortKeyPopu = sorted(dicPoblacion, key=dicPoblacion.get,reverse=True)
                 return sortKeyPopu [:10], sortValPopu [:10]
             print (paisesM())
+
+print("revisado") #No entrega los paises mas hablados ni los 10 paises mas poblados
